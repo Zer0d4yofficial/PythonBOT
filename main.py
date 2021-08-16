@@ -1,7 +1,7 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.dispatcher.filters import Text
-API_TOK = '1946352896:AAGG3DYP-cZ6qlHOuEx939bnhX4tk5T8UAY'
+API_TOK = 'yor token'
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOK)
 dp = Dispatcher(bot)
